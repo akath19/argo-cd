@@ -1,7 +1,7 @@
 # Google
 
 * [G Suite SAML App Auth using Dex](#g-suite-saml-app-auth-using-dex)
-* [G Suite OIDC App Auth using Dex](#g-usite-oidc-app-auth-using-dex)
+* [Google Workspace OIDC App Auth using Dex](#g-usite-oidc-app-auth-using-dex)
 
 Once you've set up one of the above integrations, be sure to edit `argo-rbac-cm` to configure permissions (as in the example below). See [RBAC Configurations](../rbac.md) for more detailed scenarios.
 
@@ -15,7 +15,7 @@ data:
   policy.default: role:readonly
 ```
 
-## G Suite OIDC App Auth using Dex
+## Google Workspace OIDC App Auth using Dex
 
 ### Configure your OAuth Consent screen
 1. In the [Google Cloud console](https://console.cloud.google.com) open the left-side menu and select `APIs & Services` > `OAuth consent screen`
